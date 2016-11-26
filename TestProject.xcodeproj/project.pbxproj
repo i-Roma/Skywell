@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D799AAFF1DDDB89B002CC810 /* TestProjectNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D799AAFE1DDDB89B002CC810 /* TestProjectNavigationControllerViewController.swift */; };
+		D799AB041DDDE350002CC810 /* LoginWithFacebookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D799AB031DDDE350002CC810 /* LoginWithFacebookTableViewCell.swift */; };
+		D799AB081DDDE429002CC810 /* LoginWithFacebookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D799AB071DDDE429002CC810 /* LoginWithFacebookTableViewCell.xib */; };
+		D799AB101DDDEBD6002CC810 /* FriendsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D799AB0F1DDDEBD6002CC810 /* FriendsView.xib */; };
+		D799AB151DDDEC88002CC810 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D799AB141DDDEC88002CC810 /* FriendsView.swift */; };
+		D799AB1C1DDF0E4E002CC810 /* ManualFieldsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D799AB1B1DDF0E4E002CC810 /* ManualFieldsView.xib */; };
+		D799AB221DDF1085002CC810 /* ManualFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D799AB211DDF1085002CC810 /* ManualFieldsView.swift */; };
+		D79D71A01DDF207500D0AF8B /* FacebookFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D719F1DDF207500D0AF8B /* FacebookFieldsView.swift */; };
+		D79D71A21DDF208B00D0AF8B /* FacebookFieldsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79D71A11DDF208B00D0AF8B /* FacebookFieldsView.xib */; };
+		D7E63E911DDFA5D300B3F726 /* TestProjectTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E63E901DDFA5D300B3F726 /* TestProjectTextField.swift */; };
+		D7E63E941DDFC7CF00B3F726 /* ReuseableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E63E921DDFC7CF00B3F726 /* ReuseableTableViewCell.swift */; };
+		D7E63E951DDFC7CF00B3F726 /* ReuseableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E63E931DDFC7CF00B3F726 /* ReuseableTableViewCell.xib */; };
+		D7F1ED4F1DDCA259005F8CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1ED4E1DDCA259005F8CCB /* AppDelegate.swift */; };
+		D7F1ED511DDCA259005F8CCB /* TestProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1ED501DDCA259005F8CCB /* TestProjectViewController.swift */; };
+		D7F1ED541DDCA259005F8CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F1ED521DDCA259005F8CCB /* Main.storyboard */; };
+		D7F1ED561DDCA259005F8CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F1ED551DDCA259005F8CCB /* Assets.xcassets */; };
+		D7F1ED591DDCA259005F8CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F1ED571DDCA259005F8CCB /* LaunchScreen.storyboard */; };
+		D7F1ED621DDCA41C005F8CCB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F1ED601DDCA41C005F8CCB /* FBSDKCoreKit.framework */; };
+		D7F1ED631DDCA41C005F8CCB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F1ED611DDCA41C005F8CCB /* FBSDKLoginKit.framework */; };
+		D7F1ED6A1DDCAC5C005F8CCB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F1ED691DDCAC5C005F8CCB /* Bolts.framework */; };
+		D7F1EDA81DDCCB36005F8CCB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1EDA71DDCCB36005F8CCB /* LoginViewController.swift */; };
+		D7F1EDAC1DDCCB8F005F8CCB /* LoginWithFacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1EDAB1DDCCB8F005F8CCB /* LoginWithFacebookViewController.swift */; };
+		D7F1EDB01DDCE19E005F8CCB /* ViewConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1EDAF1DDCE19E005F8CCB /* ViewConstructor.swift */; };
+		D7F1EDB31DDCE3EB005F8CCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1EDB21DDCE3EB005F8CCB /* Constants.swift */; };
+		D7F1EDB81DDCEC47005F8CCB /* TestProjectButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F1EDB71DDCEC47005F8CCB /* TestProjectButton.xib */; };
+		D7F1EDBA1DDCEC61005F8CCB /* TestProjectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1EDB91DDCEC61005F8CCB /* TestProjectButton.swift */; };
+		D7F3F1691DE1BC660082A668 /* ManualLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F3F1681DE1BC660082A668 /* ManualLoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D799AAFE1DDDB89B002CC810 /* TestProjectNavigationControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestProjectNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		D799AB031DDDE350002CC810 /* LoginWithFacebookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithFacebookTableViewCell.swift; sourceTree = "<group>"; };
+		D799AB071DDDE429002CC810 /* LoginWithFacebookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginWithFacebookTableViewCell.xib; sourceTree = "<group>"; };
+		D799AB0F1DDDEBD6002CC810 /* FriendsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsView.xib; sourceTree = "<group>"; };
+		D799AB141DDDEC88002CC810 /* FriendsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		D799AB161DDE7A25002CC810 /* TestProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestProject.entitlements; sourceTree = "<group>"; };
+		D799AB1B1DDF0E4E002CC810 /* ManualFieldsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManualFieldsView.xib; sourceTree = "<group>"; };
+		D799AB211DDF1085002CC810 /* ManualFieldsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualFieldsView.swift; sourceTree = "<group>"; };
+		D79D719F1DDF207500D0AF8B /* FacebookFieldsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookFieldsView.swift; sourceTree = "<group>"; };
+		D79D71A11DDF208B00D0AF8B /* FacebookFieldsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookFieldsView.xib; sourceTree = "<group>"; };
+		D7E63E901DDFA5D300B3F726 /* TestProjectTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestProjectTextField.swift; sourceTree = "<group>"; };
+		D7E63E921DDFC7CF00B3F726 /* ReuseableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseableTableViewCell.swift; sourceTree = "<group>"; };
+		D7E63E931DDFC7CF00B3F726 /* ReuseableTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReuseableTableViewCell.xib; sourceTree = "<group>"; };
+		D7F1ED4B1DDCA259005F8CCB /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F1ED4E1DDCA259005F8CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7F1ED501DDCA259005F8CCB /* TestProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectViewController.swift; sourceTree = "<group>"; };
+		D7F1ED531DDCA259005F8CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7F1ED551DDCA259005F8CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7F1ED581DDCA259005F8CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7F1ED5A1DDCA259005F8CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F1ED601DDCA41C005F8CCB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = TestProject/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D7F1ED611DDCA41C005F8CCB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = TestProject/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D7F1ED651DDCABAC005F8CCB /* TestProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestProject-Bridging-Header.h"; path = "TestProject/TestProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7F1ED691DDCAC5C005F8CCB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = TestProject/Bolts.framework; sourceTree = "<group>"; };
+		D7F1EDA71DDCCB36005F8CCB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D7F1EDAB1DDCCB8F005F8CCB /* LoginWithFacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithFacebookViewController.swift; sourceTree = "<group>"; };
+		D7F1EDAF1DDCE19E005F8CCB /* ViewConstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConstructor.swift; sourceTree = "<group>"; };
+		D7F1EDB21DDCE3EB005F8CCB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7F1EDB71DDCEC47005F8CCB /* TestProjectButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestProjectButton.xib; sourceTree = "<group>"; };
+		D7F1EDB91DDCEC61005F8CCB /* TestProjectButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestProjectButton.swift; sourceTree = "<group>"; };
+		D7F3F1681DE1BC660082A668 /* ManualLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualLoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F1ED481DDCA259005F8CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F1ED6A1DDCAC5C005F8CCB /* Bolts.framework in Frameworks */,
+				D7F1ED631DDCA41C005F8CCB /* FBSDKLoginKit.framework in Frameworks */,
+				D7F1ED621DDCA41C005F8CCB /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D799AB001DDDE2BC002CC810 /* LoginWithFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				D799AB131DDDEC5A002CC810 /* Friends */,
+			);
+			name = LoginWithFacebook;
+			sourceTree = "<group>";
+		};
+		D799AB0D1DDDEAEF002CC810 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D79D71A11DDF208B00D0AF8B /* FacebookFieldsView.xib */,
+				D799AB0F1DDDEBD6002CC810 /* FriendsView.xib */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		D799AB0E1DDDEAFD002CC810 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D799AB031DDDE350002CC810 /* LoginWithFacebookTableViewCell.swift */,
+				D799AB071DDDE429002CC810 /* LoginWithFacebookTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		D799AB131DDDEC5A002CC810 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				D79D719F1DDF207500D0AF8B /* FacebookFieldsView.swift */,
+				D799AB141DDDEC88002CC810 /* FriendsView.swift */,
+				D799AB0D1DDDEAEF002CC810 /* Table */,
+				D799AB0E1DDDEAFD002CC810 /* Cell */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		D799AB171DDF0DF9002CC810 /* LoginManual */ = {
+			isa = PBXGroup;
+			children = (
+				D799AB181DDF0E11002CC810 /* Fields */,
+			);
+			name = LoginManual;
+			sourceTree = "<group>";
+		};
+		D799AB181DDF0E11002CC810 /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				D799AB211DDF1085002CC810 /* ManualFieldsView.swift */,
+				D799AB191DDF0E22002CC810 /* Table */,
+			);
+			name = Fields;
+			sourceTree = "<group>";
+		};
+		D799AB191DDF0E22002CC810 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D799AB1B1DDF0E4E002CC810 /* ManualFieldsView.xib */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		D799AB1A1DDF0E28002CC810 /* ReuseableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D7E63E901DDFA5D300B3F726 /* TestProjectTextField.swift */,
+				D7E63E921DDFC7CF00B3F726 /* ReuseableTableViewCell.swift */,
+				D7E63E931DDFC7CF00B3F726 /* ReuseableTableViewCell.xib */,
+			);
+			name = ReuseableCell;
+			sourceTree = "<group>";
+		};
+		D7F1ED421DDCA259005F8CCB = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED4D1DDCA259005F8CCB /* TestProject */,
+				D7F1ED9B1DDCC558005F8CCB /* Frameworks */,
+				D7F1ED4C1DDCA259005F8CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F1ED4C1DDCA259005F8CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED4B1DDCA259005F8CCB /* TestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F1ED4D1DDCA259005F8CCB /* TestProject */ = {
+			isa = PBXGroup;
+			children = (
+				D799AB161DDE7A25002CC810 /* TestProject.entitlements */,
+				D7F1EDA31DDCCA7C005F8CCB /* Storyboards */,
+				D7F1ED9D1DDCC8CA005F8CCB /* Classes */,
+				D7F1EDA21DDCCA61005F8CCB /* Resources */,
+			);
+			path = TestProject;
+			sourceTree = "<group>";
+		};
+		D7F1ED9B1DDCC558005F8CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED9C1DDCC569005F8CCB /* Facebook SDK */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7F1ED9C1DDCC569005F8CCB /* Facebook SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED651DDCABAC005F8CCB /* TestProject-Bridging-Header.h */,
+				D7F1ED691DDCAC5C005F8CCB /* Bolts.framework */,
+				D7F1ED601DDCA41C005F8CCB /* FBSDKCoreKit.framework */,
+				D7F1ED611DDCA41C005F8CCB /* FBSDKLoginKit.framework */,
+			);
+			name = "Facebook SDK";
+			sourceTree = "<group>";
+		};
+		D7F1ED9D1DDCC8CA005F8CCB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED4E1DDCA259005F8CCB /* AppDelegate.swift */,
+				D7F1ED9E1DDCC8F2005F8CCB /* MVC */,
+				D7F1EDA51DDCCADE005F8CCB /* SupportingClasses */,
+				D7F1EDB11DDCE3AD005F8CCB /* Constants */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D7F1ED9E1DDCC8F2005F8CCB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDA11DDCC919005F8CCB /* Models */,
+				D7F1EDA01DDCC912005F8CCB /* Views */,
+				D7F1ED9F1DDCC90D005F8CCB /* Controllers */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		D7F1ED9F1DDCC90D005F8CCB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED501DDCA259005F8CCB /* TestProjectViewController.swift */,
+				D799AAFE1DDDB89B002CC810 /* TestProjectNavigationControllerViewController.swift */,
+				D7F1EDA61DDCCB01005F8CCB /* Login */,
+				D7F1EDA91DDCCB4B005F8CCB /* LoginWithFacebook */,
+				D7F1EDAA1DDCCB66005F8CCB /* ManualLogin */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D7F1EDA01DDCC912005F8CCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDB41DDCEB9D005F8CCB /* Login */,
+				D799AB001DDDE2BC002CC810 /* LoginWithFacebook */,
+				D799AB171DDF0DF9002CC810 /* LoginManual */,
+				D799AB1A1DDF0E28002CC810 /* ReuseableCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D7F1EDA11DDCC919005F8CCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D7F1EDA21DDCCA61005F8CCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED551DDCA259005F8CCB /* Assets.xcassets */,
+				D7F1EDA41DDCCA9A005F8CCB /* Plists */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D7F1EDA31DDCCA7C005F8CCB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED521DDCA259005F8CCB /* Main.storyboard */,
+				D7F1ED571DDCA259005F8CCB /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D7F1EDA41DDCCA9A005F8CCB /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1ED5A1DDCA259005F8CCB /* Info.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		D7F1EDA51DDCCADE005F8CCB /* SupportingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDAF1DDCE19E005F8CCB /* ViewConstructor.swift */,
+			);
+			name = SupportingClasses;
+			sourceTree = "<group>";
+		};
+		D7F1EDA61DDCCB01005F8CCB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDA71DDCCB36005F8CCB /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D7F1EDA91DDCCB4B005F8CCB /* LoginWithFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDAB1DDCCB8F005F8CCB /* LoginWithFacebookViewController.swift */,
+			);
+			name = LoginWithFacebook;
+			sourceTree = "<group>";
+		};
+		D7F1EDAA1DDCCB66005F8CCB /* ManualLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3F1681DE1BC660082A668 /* ManualLoginViewController.swift */,
+			);
+			name = ManualLogin;
+			sourceTree = "<group>";
+		};
+		D7F1EDB11DDCE3AD005F8CCB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDB21DDCE3EB005F8CCB /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		D7F1EDB41DDCEB9D005F8CCB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDB61DDCEBB0005F8CCB /* TestProjectButton */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D7F1EDB61DDCEBB0005F8CCB /* TestProjectButton */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1EDB71DDCEC47005F8CCB /* TestProjectButton.xib */,
+				D7F1EDB91DDCEC61005F8CCB /* TestProjectButton.swift */,
+			);
+			name = TestProjectButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F1ED4A1DDCA259005F8CCB /* TestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F1ED5D1DDCA259005F8CCB /* Build configuration list for PBXNativeTarget "TestProject" */;
+			buildPhases = (
+				D7F1ED471DDCA259005F8CCB /* Sources */,
+				D7F1ED481DDCA259005F8CCB /* Frameworks */,
+				D7F1ED491DDCA259005F8CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestProject;
+			productName = TestProject;
+			productReference = D7F1ED4B1DDCA259005F8CCB /* TestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F1ED431DDCA259005F8CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Roman Romanenko";
+				TargetAttributes = {
+					D7F1ED4A1DDCA259005F8CCB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3AN3RFG9CZ;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D7F1ED461DDCA259005F8CCB /* Build configuration list for PBXProject "TestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7F1ED421DDCA259005F8CCB;
+			productRefGroup = D7F1ED4C1DDCA259005F8CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F1ED4A1DDCA259005F8CCB /* TestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F1ED491DDCA259005F8CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D799AB081DDDE429002CC810 /* LoginWithFacebookTableViewCell.xib in Resources */,
+				D799AB101DDDEBD6002CC810 /* FriendsView.xib in Resources */,
+				D7F1ED591DDCA259005F8CCB /* LaunchScreen.storyboard in Resources */,
+				D7F1ED561DDCA259005F8CCB /* Assets.xcassets in Resources */,
+				D7E63E951DDFC7CF00B3F726 /* ReuseableTableViewCell.xib in Resources */,
+				D7F1ED541DDCA259005F8CCB /* Main.storyboard in Resources */,
+				D799AB1C1DDF0E4E002CC810 /* ManualFieldsView.xib in Resources */,
+				D79D71A21DDF208B00D0AF8B /* FacebookFieldsView.xib in Resources */,
+				D7F1EDB81DDCEC47005F8CCB /* TestProjectButton.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F1ED471DDCA259005F8CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F1EDA81DDCCB36005F8CCB /* LoginViewController.swift in Sources */,
+				D799AB221DDF1085002CC810 /* ManualFieldsView.swift in Sources */,
+				D7F3F1691DE1BC660082A668 /* ManualLoginViewController.swift in Sources */,
+				D7F1ED511DDCA259005F8CCB /* TestProjectViewController.swift in Sources */,
+				D7E63E911DDFA5D300B3F726 /* TestProjectTextField.swift in Sources */,
+				D799AB041DDDE350002CC810 /* LoginWithFacebookTableViewCell.swift in Sources */,
+				D7F1EDB01DDCE19E005F8CCB /* ViewConstructor.swift in Sources */,
+				D799AB151DDDEC88002CC810 /* FriendsView.swift in Sources */,
+				D7F1EDB31DDCE3EB005F8CCB /* Constants.swift in Sources */,
+				D7F1EDAC1DDCCB8F005F8CCB /* LoginWithFacebookViewController.swift in Sources */,
+				D7F1ED4F1DDCA259005F8CCB /* AppDelegate.swift in Sources */,
+				D79D71A01DDF207500D0AF8B /* FacebookFieldsView.swift in Sources */,
+				D7F1EDBA1DDCEC61005F8CCB /* TestProjectButton.swift in Sources */,
+				D799AAFF1DDDB89B002CC810 /* TestProjectNavigationControllerViewController.swift in Sources */,
+				D7E63E941DDFC7CF00B3F726 /* ReuseableTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7F1ED521DDCA259005F8CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F1ED531DDCA259005F8CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7F1ED571DDCA259005F8CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F1ED581DDCA259005F8CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F1ED5B1DDCA259005F8CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7F1ED5C1DDCA259005F8CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7F1ED5E1DDCA259005F8CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TestProject/TestProject.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3AN3RFG9CZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestProject",
+				);
+				INFOPLIST_FILE = TestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RR.TestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/TestProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7F1ED5F1DDCA259005F8CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TestProject/TestProject.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3AN3RFG9CZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestProject",
+				);
+				INFOPLIST_FILE = TestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RR.TestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/TestProject-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F1ED461DDCA259005F8CCB /* Build configuration list for PBXProject "TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F1ED5B1DDCA259005F8CCB /* Debug */,
+				D7F1ED5C1DDCA259005F8CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F1ED5D1DDCA259005F8CCB /* Build configuration list for PBXNativeTarget "TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F1ED5E1DDCA259005F8CCB /* Debug */,
+				D7F1ED5F1DDCA259005F8CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7F1ED431DDCA259005F8CCB /* Project object */;
+}
