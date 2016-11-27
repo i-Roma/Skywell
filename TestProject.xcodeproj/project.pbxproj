@@ -449,6 +449,7 @@
 				D7F1ED531DDCA259005F8CCB /* Base */,
 			);
 			name = Main.storyboard;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		D7F1ED571DDCA259005F8CCB /* LaunchScreen.storyboard */ = {
@@ -457,6 +458,7 @@
 				D7F1ED581DDCA259005F8CCB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

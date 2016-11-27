@@ -17,7 +17,7 @@ fileprivate struct ManualLoginConstants {
     static let dateOfBirthday = 2
 }
 
-class ManualFieldsView: UIView {
+class ManualFieldsView: UIView, UITextFieldDelegate {
 
     weak var dateOfBirthDelegate: DateOfBirthDelegate?
     
@@ -48,19 +48,19 @@ class ManualFieldsView: UIView {
     
     func configure(manualFieldsCell: ReuseableTableViewCell, for indexPath: IndexPath) -> UITableViewCell {
         manualFieldsCell.label.text = ManualLoginConstants.labelValue[indexPath.row]
+        manualFieldsCell.textField.keyboardAppearance = .dark
         
         if indexPath.row == ManualLoginConstants.dateOfBirthday {
-            manualFieldsCell.textField.addTarget(self, action: #selector(self.textDidBeginEditing(textField:)), for: UIControlEvents.editingDidBegin)
+            manualFieldsCell.textField.delegate = self
             manualFieldsCell.textField.text = self.selectedDate
         }
         
         return manualFieldsCell
     }
-
-    func textDidBeginEditing(textField: UITextField) -> Void {
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
         self.endEditing(true)
         dateOfBirthDelegate?.showDatePicker()
-        self.endEditing(true)
     }
 
 }

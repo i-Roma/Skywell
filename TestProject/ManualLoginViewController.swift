@@ -25,16 +25,8 @@ class ManualLoginViewController: UIViewController {
     @IBOutlet var dataPickerPosition: NSLayoutConstraint!
     @IBOutlet var dataPicker: UIDatePicker!
 
-    var keyboardHeight: CGFloat?
-    var duration: Double?
-    var curve: UInt?
-    
-    var isDataPicker: Bool?
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        isDataPicker = false
         
         manualFieldsView.dateOfBirthDelegate = self
         
@@ -44,9 +36,7 @@ class ManualLoginViewController: UIViewController {
     }
 
     func detectTapOnScreen(tap: UIGestureRecognizer) {
-        if isDataPicker == true {
-            animateHideDataPicker()
-        }
+        animateHideDataPicker()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -120,7 +110,6 @@ class ManualLoginViewController: UIViewController {
 
 extension ManualLoginViewController: DateOfBirthDelegate {
     func showDatePicker() {
-        isDataPicker = true
         self.animateShowDatePicker()
     }
 }
